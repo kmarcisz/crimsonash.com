@@ -1,6 +1,10 @@
 %h3 portfolio
 .row
-  - @projects["projects"].each do |k, project|
-    .col-xs-12.col-sm-6.col-lg-4
+  - @projects.each_with_index do |project, i|
+    .col-xs-12.col-sm-6.col-lg-4.project
       %img.img-responsive{src: "/images/projects/#{ project["image"] }", alt: project["name"]}
       %h4= project["name"]
+      .description
+        %p= project["summary"]
+    - if (i + 1) % 3 == 0
+      .clearfix

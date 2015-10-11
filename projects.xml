@@ -3,7 +3,71 @@
   <project>
     <name>Victory Merch</name>
     <image>victorymerch.jpg</image>
-    <description>E-commerce shop built from the grounds up on a custom CMS</description>
-    <keywords>git, php, responsive, ecommerce</keywords>
+    <summary>E-commerce shop built from the grounds up on a custom CMS</summary>
+    <keywords>git, php, responsive, ecommerce, purecss, grunt</keywords>
+  </project>
+  <project>
+    <name>Victory Records</name>
+    <image>victoryrecords.jpg</image>
+    <summary>Landing page of a rock label with artists information, releases, tour schedule, music videos and lyrics.
+    </summary>
+    <keywords>git, php, responsive, bootstrap</keywords>
+  </project>
+  <project>
+    <name>Another Victory</name>
+    <image>anothervictory.jpg</image>
+    <summary>Publishing company focused on music licensing. Has pre-set and custom playlists, opens/plays/downloads
+      tracking and option to stream or download individual tracks and playlists.
+    </summary>
+    <keywords>git, php, jquery, responsive, bootstrap</keywords>
+  </project>
+  <project>
+    <name>Victory Press Center</name>
+    <image>victorypresscenter.jpg</image>
+    <summary>One stop hub for all the resources press might need for Victory Records' artists. High res photos, logos,
+      tour dates and more available individually or a ZIP download. Includes press releases archive as a Wordpress
+      module.
+    </summary>
+    <keywords>git, php, jquery, responsive, bootstrap</keywords>
+  </project>
+  <project>
+    <name>Overlord</name>
+    <image>overlord.jpg</image>
+    <summary>Admin control panel used to maintain Victory Records, Merch, Press Center and more. Has merch sizing,
+      orders control panel, artists are releases info, tour dates and more.
+    </summary>
+    <keywords>git, php, gulp, haml, twig, jquery, responsive, bootstrap</keywords>
+  </project>
+  <project>
+    <name>Shirts Now</name>
+    <image>shirtsnow.jpg</image>
+    <summary>Screen printing shop with products and colors for each garment, product quotes and FedEx shipping
+      information based on the ZIP code.
+    </summary>
+    <keywords>git, php, jquery, responsive, bootstrap</keywords>
+  </project>
+  <project>
+    <name>Eternal Enemies</name>
+    <image>eternalenemies.jpg</image>
+    <summary>Facebook application that takes your profile picture and superimposes album artwork to create a new image
+      with a scarf on your face and sets it as you profile picture.
+    </summary>
+    <keywords>php, jquery, mobile first, facebook</keywords>
+  </project>
+  <project>
+    <name>Bahamas Hurricane Relief</name>
+    <image>bahamashurricanerelief.jpg</image>
+    <summary>Quick one afternoon project to make a landing page with donation information for the hurricane Joaquin victims.</summary>
+    <keywords>html, jquery, bootstrap, responsive</keywords>
+  </project>
+  <project>
+    <name>Promo pages</name>
+    <image>promo.jpg</image>
+    <summary>Promo landing pages for ad campaigns, with call to action and specific purpose for 20+ artists.</summary>
+  </project>
+  <project>
+    <name>EPK</name>
+    <image>epk.jpg</image>
+    <summary>Electronic Press Kits used to pitch songs, music videos and tours to industry contacts. Each page was custom designed taking into consideration the audience and expected result.</summary>
   </project>
 </projects>
