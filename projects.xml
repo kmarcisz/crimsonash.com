@@ -3,7 +3,7 @@
   <project>
     <name>Victory Merch</name>
     <image>victorymerch.jpg</image>
-    <summary>E-commerce shop built from the grounds up on a custom CMS</summary>
+    <summary>E-commerce shop built from the grounds up using a custom CMS. Includes credit card processing, user account overview, digital downloads and wishlists.</summary>
     <keywords>git, php, responsive, ecommerce, purecss, grunt</keywords>
   </project>
   <project>
@@ -34,7 +34,7 @@
     <name>Overlord</name>
     <image>overlord.jpg</image>
     <summary>Admin control panel used to maintain Victory Records, Merch, Press Center and more. Has merch sizing,
-      orders control panel, artists are releases info, tour dates and more.
+      orders control panel, artists, releases information, tour dates and more.
     </summary>
     <keywords>git, php, gulp, haml, twig, jquery, responsive, bootstrap</keywords>
   </project>
