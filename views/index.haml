@@ -1,0 +1,6 @@
+%h3 portfolio
+.row
+  - @projects["projects"].each do |k, project|
+    .col-xs-12.col-sm-6.col-lg-4
+      %img.img-responsive{src: "/images/projects/#{ project["image"] }", alt: project["name"]}
+      %h4= project["name"]
