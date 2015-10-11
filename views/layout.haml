@@ -4,20 +4,25 @@
     %title Crimson Ash
     %link{href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", rel: "stylesheet"}
     %link{href: "https://fonts.googleapis.com/css?family=Open+Sans:400,700", rel: "stylesheet"}
+    %link{href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css", rel: "stylesheet"}
     %link{href: "/css/main.css", rel: "stylesheet"}
   %body
     .megatron
       %h1 Kacper Marcisz
       %ul.list-unstyled
         %li
-          %a{href: "/#portfolio"} portfolio
+          %a{href: "#aboutme"} about me
         %li
-          %a{href: "/#contact"} contact
+          %a{href: "#portfolio"} portfolio
         %li
-          %a{href: "/#github"} github
+          %a.external{href: "https://github.com/kmarcisz"} github
         %li
-          %a{href: "/#linkedin"} linkedin
+          %a.external{href: "https://www.linkedin.com/in/kacpermarcisz"} linkedin
     .container
       .row
         .col-sm-12
           = yield
+    %footer.text-center
+      = "&copy; Crimson Ash Media #{ @now.year }"
+    %script{src: "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"}
+    %script{src: "/js/main.js"}

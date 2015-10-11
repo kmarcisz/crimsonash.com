@@ -70,4 +70,14 @@
     <image>epk.jpg</image>
     <summary>Electronic Press Kits used to pitch songs, music videos and tours to industry contacts. Each page was custom designed taking into consideration the audience and expected result.</summary>
   </project>
+  <project>
+    <name>Secure Stream</name>
+    <image>secure.jpg</image>
+    <summary>Streaming site for unreleased songs and albums. Each track has voiceover for tracking leaked music, usage is monitored and plays are non downloadable (RTMP stream).</summary>
+  </project>
+  <project>
+    <name>Victory Street Team</name>
+    <image>victorystreetteam.jpg</image>
+    <summary>Signup page for Victory Street Team, a collection of fans who promote artists, releases and shows in exchange for albums, merchandise and tickets.</summary>
+  </project>
 </projects>

@@ -4,7 +4,8 @@ require "nori"
 
 before do
   @projects = Nori.new.parse(File.open("projects.xml", "rb").read)["projects"]["project"]
-  puts @projects
+  @now = DateTime.now
+
 end
 
 get "/" do

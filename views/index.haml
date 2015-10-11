@@ -1,3 +1,15 @@
+%a{name: "aboutme"}
+%h3 about me
+.row
+  .col-sm-12.col-md-8.col-md-offset-2.col-lg-6.col-lg-offset-3
+    %p.text-center
+      Hi! My name is Kacper and I'm a Full Stack developer. I write code primary in Ruby and PHP, using jQuery for the frontend. I am proficient in HTML/HAML, CSS/SCSS/SASS, Rails, Sinatra, SlimPHP, FatFree, Wordpress, git, gulp, twig, MySQL, SQL Server, IIS and Apache.
+    %p.text-center
+      You can contact me at
+      %a{href: "mailto:kmarcisz@gmail.com"} kmarcisz@gmail.com
+      or (773) 704 3540
+
+%a{name: "portfolio"}
 %h3 portfolio
 .row
   - @projects.each_with_index do |project, i|
@@ -8,3 +20,4 @@
         %p= project["summary"]
     - if (i + 1) % 3 == 0
       .clearfix
+
