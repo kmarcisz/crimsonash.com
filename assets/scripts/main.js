@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("a.external").attr("target", "_blank").append(' <span class="fa fa-share"></span>');
+  $("a.external").attr("target", "_blank");
 
   $("a[href^=#]").on("click", function(event){
     event.preventDefault();

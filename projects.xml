@@ -3,7 +3,10 @@
   <project>
     <name>Victory Merch</name>
     <image>victorymerch.jpg</image>
-    <summary>E-commerce shop built from the grounds up using a custom CMS. Includes credit card processing, user account overview, digital downloads and wishlists.</summary>
+    <summary>E-commerce shop built from the grounds up using a custom CMS. Includes credit card processing, user account
+      overview, digital downloads and wishlists.
+    </summary>
+    <link>http://www.victorymerch.com</link>
     <keywords>git, php, responsive, ecommerce, purecss, grunt</keywords>
   </project>
   <project>
@@ -11,6 +14,7 @@
     <image>victoryrecords.jpg</image>
     <summary>Landing page of a rock label with artists information, releases, tour schedule, music videos and lyrics.
     </summary>
+    <link>http://www.victoryrecords.com</link>
     <keywords>git, php, responsive, bootstrap</keywords>
   </project>
   <project>
@@ -19,6 +23,7 @@
     <summary>Publishing company focused on music licensing. Has pre-set and custom playlists, opens/plays/downloads
       tracking and option to stream or download individual tracks and playlists.
     </summary>
+    <link>http://www.anothervictory.com</link>
     <keywords>git, php, jquery, responsive, bootstrap</keywords>
   </project>
   <project>
@@ -28,6 +33,7 @@
       tour dates and more available individually or a ZIP download. Includes press releases archive as a Wordpress
       module.
     </summary>
+    <link>http://www.victorypresscenter.com</link>
     <keywords>git, php, jquery, responsive, bootstrap</keywords>
   </project>
   <project>
@@ -44,6 +50,7 @@
     <summary>Screen printing shop with products and colors for each garment, product quotes and FedEx shipping
       information based on the ZIP code.
     </summary>
+    <link>http://www.shirts-now.com</link>
     <keywords>git, php, jquery, responsive, bootstrap</keywords>
   </project>
   <project>
@@ -57,27 +64,39 @@
   <project>
     <name>Bahamas Hurricane Relief</name>
     <image>bahamashurricanerelief.jpg</image>
-    <summary>Quick one afternoon project to make a landing page with donation information for the hurricane Joaquin victims.</summary>
+    <summary>Quick one afternoon project to make a landing page with donation information for the hurricane Joaquin
+      victims.
+    </summary>
+    <link>http://www.bahamashurricanerelief.com</link>
     <keywords>html, jquery, bootstrap, responsive</keywords>
   </project>
   <project>
     <name>Promo pages</name>
     <image>promo.jpg</image>
     <summary>Promo landing pages for ad campaigns, with call to action and specific purpose for 20+ artists.</summary>
+    <link>http://promo.victoryrecords.com/artist/islander</link>
   </project>
   <project>
     <name>EPK</name>
     <image>epk.jpg</image>
-    <summary>Electronic Press Kits used to pitch songs, music videos and tours to industry contacts. Each page was custom designed taking into consideration the audience and expected result.</summary>
+    <summary>Electronic Press Kits used to pitch songs, music videos and tours to industry contacts. Each page was
+      custom designed taking into consideration the audience and expected result.
+    </summary>
+    <link>http://epk.victoryrecords.com/reverendhortonheat</link>
   </project>
   <project>
     <name>Secure Stream</name>
     <image>secure.jpg</image>
-    <summary>Streaming site for unreleased songs and albums. Each track has voiceover for tracking leaked music, usage is monitored and plays are non downloadable (RTMP stream).</summary>
+    <summary>Streaming site for unreleased songs and albums. Each track has voiceover for tracking leaked music, usage
+      is monitored and plays are non downloadable (RTMP stream).
+    </summary>
   </project>
   <project>
     <name>Victory Street Team</name>
     <image>victorystreetteam.jpg</image>
-    <summary>Signup page for Victory Street Team, a collection of fans who promote artists, releases and shows in exchange for albums, merchandise and tickets.</summary>
+    <summary>Signup page for Victory Street Team, a collection of fans who promote artists, releases and shows in
+      exchange for albums, merchandise and tickets.
+    </summary>
+    <link>http://www.victorystreetteam.com</link>
   </project>
 </projects>
