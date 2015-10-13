@@ -38,4 +38,5 @@ gulp.task('watch', function() {
     gulp.watch(paths.styles, ['styles']);
 });
 
-gulp.task('default', ['scripts', 'styles', 'watch']);
+gulp.task('build', ['scripts', 'styles']);
+gulp.task('default', ['build', 'watch']);
