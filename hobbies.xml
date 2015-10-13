@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no" ?>
+<projects>
+  <project>
+    <name>Arcade Machine</name>
+    <image>arcademachine.jpg</image>
+    <summary>Fully functioning old school arcade machine redone using modern technology, custom built with two 8-button joysticks, no-keyboard front end operation and retrofitted working coin door.</summary>
+  </project>
+  <project>
+    <name>Christmas Tree</name>
+    <video>https://scontent-ord1-1.cdninstagram.com/hphotos-xaf1/t50.2886-16/11683086_1455117414809058_900227668_n.mp4</video>
+    <summary>Christmas Tree controller via smartphone. Can be turned on/off from anywhere in the world, and runs on a schedule that can be overwritten for specific timeframe or until next programmed change.</summary>
+  </project>
+  <project>
+    <name>3d printed holder</name>
+    <image>3dprint.jpg</image>
+    <summary>3D printed phone adapter to be used with a new phone that was too wide to be used with the old holder. Designed in SketchUp, printed on MakerBot v2.</summary>
+  </project>
+</projects>

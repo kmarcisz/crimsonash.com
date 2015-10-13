@@ -12,10 +12,23 @@
 %a{name: "portfolio"}
 %h3 portfolio
 .row.projects
-  - @projects.each do |project|
+  - @portfolioProjects.each do |project|
     .col-xs-12.col-sm-6.col-lg-4.project
       %a{href: project["link"], class: project["link"].nil? ? "#" : "external"}
         %img.img-responsive{src: "/images/projects/#{ project["image"] }", alt: project["name"]}
         %h4= project["name"]
+      .description
+        %p= project["summary"]
+
+%a{name: "interests"}
+%h3 interests
+.row.projects
+  - @hobbyProjects.each do |project|
+    .col-xs-12.col-sm-6.col-lg-4.project
+      - if !project["image"].nil?
+        %img.img-responsive{src: "/images/hobbies/#{ project["image"] }", alt: project["name"]}
+      - elsif !project["video"].nil?
+        %video.img-responsive{src: project["video"], type:"video/mp4", controls: true}
+      %h4= project["name"]
       .description
         %p= project["summary"]
