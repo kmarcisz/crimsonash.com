@@ -2,23 +2,30 @@ body
   font-family: "Open Sans", sans-serif
   margin: 0
   padding: 0
+  font-size: 16px
+
+h1, h2, h3, h4
+  font-family: "Lato", sans-serif
 
 h1
   color: #ffffff
 
 h3
-  font-family: "Open Sans", sans-serif
   text-align: center
   text-transform: uppercase
-  letter-spacing: 6px
+  letter-spacing: 1px
   margin-top: 2em
   a
     color: #2a2a2a
 
-.text-center
-  text-align: center
+img.fluid
+  max-width: 100%
 
-.megatron
+.container
+  max-width: 1200px
+  margin: 0 auto
+
+header
   padding: 150px 0
   border-bottom: 1px solid #d9d9d9
   text-align: center
@@ -43,29 +50,27 @@ h3
         padding: 8px 16px
         transition: all 0.3s
         color: #ffffff
+        text-decoration: none
         &:hover
-          text-decoration: none
+          text-decoration: underline
           color: #ddd
 
+.projects
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr))
+  grid-gap: 10px 20px
+  &--compact
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr))
+
 .project
-  margin-bottom: 2em
   h4
+    margin-top: 0
     text-align: center
     text-transform: uppercase
-    letter-spacing: 3px
+    letter-spacing: 1px
 
 footer
   display: block
   padding: 4em 0
   border-top: 1px solid #d9d9d9
-
-@media(min-width: 768px)
-  .project:nth-child(2n+1)
-    clear: both
-
-
-@media(min-width: 1200px)
-  .project:nth-child(2n+1)
-    clear: inherit
-  .project:nth-child(3n+1)
-    clear: both
+  text-align: center

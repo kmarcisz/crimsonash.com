@@ -6,13 +6,13 @@
     <summary>Fully functioning old school arcade machine redone using modern technology, custom built with two 8-button joysticks, no-keyboard front end operation and retrofitted working coin door.</summary>
   </project>
   <project>
-    <name>Christmas Tree</name>
-    <video>https://scontent-ord1-1.cdninstagram.com/hphotos-xaf1/t50.2886-16/11683086_1455117414809058_900227668_n.mp4</video>
-    <summary>Christmas Tree controller via smartphone. Can be turned on/off from anywhere in the world, and runs on a schedule that can be overwritten for specific timeframe or until next programmed change.</summary>
+    <name>Electronics</name>
+    <image>electronics.jpg</image>
+    <summary>Electronic has been a hobby of mine for a while now. I like to tinker with different ideas, and the biggest project I ever did was Raspberry Pi controller solar powered attic fan interface.</summary>
   </project>
   <project>
-    <name>3d printed holder</name>
-    <image>3dprint.jpg</image>
-    <summary>3D printed phone adapter to be used with a new phone that was too wide to be used with the old holder. Designed in SketchUp, printed on MakerBot v2.</summary>
+    <name>3d printers</name>
+    <image>lego-3dprint.jpg</image>
+    <summary>I am a big 3D print enthusiast, currently I own 4 printers which combined worked over 1000 hours. It's a fantastic new technology that surpirses me every day.</summary>
   </project>
 </projects>

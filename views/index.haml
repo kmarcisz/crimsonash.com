@@ -1,34 +1,34 @@
-%a{name: "aboutme"}
-%h3 about me
-.row
-  .col-sm-12.col-md-8.col-md-offset-2.col-lg-6.col-lg-offset-3
-    %p.text-center
-      Hi! My name is Kacper and I'm a Full Stack developer. I write code primary in Ruby and PHP, using jQuery for the frontend. I am proficient in HTML/HAML, CSS/SCSS/SASS, Rails, Sinatra, SlimPHP, FatFree, Wordpress, git, gulp, twig, MySQL, SQL Server, IIS and Apache.
-    %p.text-center
-      You can contact me at
-      %a{href: "mailto:kmarcisz@gmail.com"} kmarcisz@gmail.com
-      or (773) 704 3540
+%h3#aboutme about me
+%section.about
+  %p
+    Hi! My name is Kacper and I'm a Full Stack Developer. I write code primary in PHP (laravel) & Ruby (sinatra), using Vue/ES6 for the frontend. Download my 
+    %a{href: '/pdf/resume.pdf'} 
+      resume
+      %span.fa.fa-file-pdf-o
+    for more info!
+  %p
+    You can contact me at
+    %a{href: "mailto:kmarcisz@gmail.com"} kmarcisz@gmail.com
+    or (773) 704 3540
 
-%a{name: "portfolio"}
-%h3 portfolio
-.row.projects
+%h3#portfolio portfolio
+%section.projects.projects--compact
   - @portfolioProjects.each do |project|
-    .col-xs-12.col-sm-6.col-lg-4.project
+    .project
       %a{href: project["link"], class: project["link"].nil? ? "#" : "external"}
-        %img.img-responsive{src: "/images/projects/#{ project["image"] }", alt: project["name"]}
+        %img.fluid{src: "/images/projects/#{ project["image"] }", alt: project["name"]}
         %h4= project["name"]
       .description
         %p= project["summary"]
 
-%a{name: "interests"}
-%h3 interests
-.row.projects
+%h3#interests interests
+%section.projects
   - @hobbyProjects.each do |project|
-    .col-xs-12.col-sm-6.col-lg-4.project
+    .project
       - if !project["image"].nil?
-        %img.img-responsive{src: "/images/hobbies/#{ project["image"] }", alt: project["name"]}
+        %img.fluid{src: "/images/hobbies/#{ project["image"] }", alt: project["name"]}
       - elsif !project["video"].nil?
-        %video.img-responsive{src: project["video"], type:"video/mp4", controls: true}
+        %video.fluid{src: project["video"], type:"video/mp4", controls: true}
       %h4= project["name"]
       .description
         %p= project["summary"]

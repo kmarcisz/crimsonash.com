@@ -1,19 +1,28 @@
-var gulp      = require('gulp');
+var gulp        = require('gulp');
 
 var browserSync = require('browser-sync').create();
 var minifycss   = require('gulp-minify-css');
 var uglify      = require('gulp-uglify');
 var plumber     = require('gulp-plumber');
 var sass        = require('gulp-sass');
+var concat      = require('gulp-concat');
 
 var paths = {
-    scripts: ['assets/scripts/*.js', 'assets/scripts/main.js'],
-    styles: ['assets/styles/main.sass', 'assets/styles/*.sass']
+    scripts: [
+        'node_modules/animated-scroll-to/animated-scroll-to.js',
+        'assets/scripts/*.js',  
+        'assets/scripts/main.js',
+    ],
+    styles: [
+        'assets/styles/main.sass', 
+        'assets/styles/*.sass',
+    ],
 };
 
 gulp.task('scripts', function() {
     gulp.src(paths.scripts)
     .pipe(uglify())
+    .pipe(concat('main.js'))
     .pipe(gulp.dest('public/js/'));
 });
 
